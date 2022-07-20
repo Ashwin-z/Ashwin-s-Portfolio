@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ILLus Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/68adad4f16.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <img class="Logo" src="images/Logo.png" alt="">
+        <ul id="sidemenu">
+          <li><a href="#HEADER">HOME</a></li>
+          <li><a href="#ABOUT">ABOUT</a></li>
+          <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+          <li><a href="#SERVICES">SERVICES</a></li>
+          <li><a href="#CONTACT">HIRE ME</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="detel">
+        <h1>I,m Ashwin <span>Kumar</span></h1>
+        <p>This is my official portfolio website to showes all
+        <br>Details and work expirins web development
+      </p>
+      <a href="#">Downlord CV</a>
+      </div>
+      <div class="images">
+        <img src="images/shape.png" class="shape">
+        <img src="images/profile.png" class="profile">
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+          <img src="images/user2.jpg">
+        </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+          <p>Hi, I Am Ashwin A Full Time Web Developer.And I Can Develop Any Type Of Website</p>
+          <p>According To The Demand.Like Your Business Website.Even An OnlineStore. Etc Website</p>
+          <p>Any Type Of WebsiteYou Want.</p>
+          <p>I Also Worked At Upwork And Fiverr</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab">
+            <ul>
+              <li><span>Web Development</span><br>Website Designer</li>
+              <li><span>Web Development</span><br> Full Stack Web Developer</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2019 - 2022</span><br>Stared Coding</li>
+              <li><span>2021</span><br>Freelancer On Fiverr</li>
+              <li><span>2022</span><br>Freelancer On Upwork</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2022</span><br>Class 10th Student</li>
+              <li><span>--</span><br>--</li>
+              <li><span>--</span><br>--</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- SERVICES -->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code fa-4x centre"></i>
+          <h2>Web Design</h2>
+          <p>Custom Made Website,
+          Business Website,
+          ecommerce,wordpress, etc</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-file-code fa-4x centre"></i>
+          <h2>Customize Website</h2>
+          <p>I Can Also Customize Your existing Website </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+
+        <i class="fa-solid fa-bug fa-4x centre"></i>
+        <h2>Existing Issue</h2>
+        <p>I Can Also Fix Bugs From Your Existing Website </p>
+        <a href="#">Learn more</a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- portfolio -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work.png">
+        <div class="layer">
+          <h3>Simple & Easy Calculator</h3>
+          <p>The Calculator Can Calculate Small Things Like
+          Addition, Substration, Multiplication, Division Etc.</p>
+          <a href="https://calculate-me.ashwinkumar35.repl.co/"><i class="fa-solid fa-calculator fa-4x"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work2.png">
+        <div class="layer">
+          <h3>Mini Drum Kit</h3>
+          <a href="https://girach-ak.github.io/Drum-Kit/"><i class="fa-solid fa-drum fa-4x"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work3.png">
+        <div class="layer">
+          <h3>Sorry Nothing To Show :(</h3>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-- contact -->
+<div class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>girachashwin048@gmail.com</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=100075157823221"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/ashwink58702978"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/ashwin_khatri5/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+<div class="copyright">
+<p>Copyright © Ashwin. Made with<i class="fa-solid fa-heart"></i> by Ashwin</p>
+</div>
+</div>
+
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+    <script>
+
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemeu.style.right = "0";
+      }
+      function closemenu(){
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxq00P-v40T3MdabxkJ1MNqlMWaWRLtDz1z561Q6YmD-YW_oPZWF54HAApFzQ8ozDrr/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+</html>
